@@ -1,0 +1,251 @@
+body{
+ background-image: url(../images/backgroundpatiennt.png);
+ background-size: cover;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    margin-left: 200px;
+    width: 70%;
+  }
+  
+  td, th {
+    border: 3px solid #78d66bc2;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #85d8a73f;
+  }
+
+  input[type=button] {
+    
+    background-color: #4caf4fa2;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;	
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .b{
+          width: 18%; 
+          padding: 8px; 
+          color: #ffffff; 
+          background: none #19547077; 
+          border: none; 
+          border-radius: 6px; 
+          font-size: 18px; 
+          cursor: pointer; 
+          margin: 12px 0; 
+      }
+
+  .dot {
+    height: 10px;
+    width: 10px;
+    background-color: #5FF01B;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  #form-container p {
+      background-color: rgba(127, 255, 212, 0.192);
+  }
+
+  input[type=text],[type=date],textarea,select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+ 
+  h1{text-align:center;}
+  p {
+    width: 75% ;
+    height:auto;	
+    border: 5px solid rgba(106, 194, 106, 0.637);
+    padding: 50px;
+    margin: 20px;
+    position: absolute;
+    left: 5%; 
+    background: #EADEA5; 
+    border: 8px solid black"	
+  }
+  .button{background:rgba(157, 216, 149, 0.678);}
+
+
+ view-patient-header{
+ color: #020203;
+ text-align: center;
+ text-justify: auto;
+ }
+
+
+
+  #customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    }
+
+    #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    }
+
+    #customers tr:nth-child(even){background-color: #f2f2f2;}
+
+    #customers tr:hover {background-color: #ddd;}
+
+    #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+    }
+  
+    table.table1{
+        font-family: Arial, Helvetica, sans-serif;
+          border-collapse: collapse;
+          width: 95%;
+          margin-left: auto;
+          margin-right: auto;
+        }
+        
+      table.table2{
+        font-family: Arial, Helvetica, sans-serif;
+          border-collapse: collapse;
+          width: 95%;
+          margin-top: 17px;
+          margin-left: auto;
+          margin-right: auto;
+        }
+    table.table1 td,th {
+      border: 3px solid #ddd;
+      padding: 8px;
+    
+    }
+    table.table2 td,th {
+      border: 3px solid #ddd;
+      padding: 8px;
+    
+    }
+    
+    table.table1 th {
+      padding-top: 12px;
+      padding-bottom: 12px;
+      text-align: center;
+      background-color: #4CAF50;
+      color: white;
+    }
+
+    table.table2 th {
+      padding-top: 12px;
+      padding-bottom: 12px;
+      text-align: center;
+      background-color: #4CAF50;
+      color: white;
+    }
+    .b {
+       width:100%;
+    }
+
+    table.table1 tr
+    {text-align:center}
+    table.table2 tr
+    {text-align:center}
+    tr:nth-child(even){background-color: #f2f2f2;}
+    tr:hover {background-color: #ddd;}
+    
+    tr:nth-child(even){background-color: #f2f2f2;}
+    
+    tr:hover {background-color: #ddd;}
+    
+    table.table1 th {
+      padding-top: 12px;
+      padding-bottom: 12px;
+      text-align: center;
+      background-color: #4CAF50;
+      color: white;
+    }
+    table.table2 th {
+      padding-top: 12px;
+      padding-bottom: 12px;
+      text-align: center;
+      background-color: #4CAF50;
+      color: white;
+    }
+
+    input[type=text],textarea {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+    
+    h1,h3{text-align:center;}
+    .j{text-align:center;}
+    p {
+      width: 75% ;
+      height:auto;	
+      border: 5px solid rgb(0, 128, 64);
+      padding: 50px;
+      margin: 20px;
+      position: absolute;
+      left: 5%; 
+      background: #64dad06e; 
+      border: 8px solid black"	
+    }
+    input[type=submit],[type=button] {
+      background-color: #4CAF50;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;	
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    h2 {
+        color: #020203;
+        text-align: center;
+        text-justify: auto;
+    }
+
+    #discharging, #cas-discharge, 
+    #ward-discharge {
+        padding-top: 55px;
+    }
+
+    #groom-discharge {
+        padding-top: 55px; 
+    }
+    
+    #pat-btns, #cas-btns  {
+        padding-left: 40%;
+    }
+    
+    #ward-btns{
+        padding-left: 40%;
+        padding-top: 60px;
+    }
+
+    #groom-btns {
+        padding-left: 40%;
+        padding-top: 60px;
+    }
+
+    #vroom-admit, #vroom-discharge{
+      padding-top: 70px;
+    }
